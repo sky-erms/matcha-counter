@@ -17,7 +17,7 @@ function save() {
     saveEl.textContent += count;
   } else if (entryCount > 6) {
     alert(
-      "Whoo Hoo! It's the end of the week! I have reset the count for the new week :)"
+      "Oops! It's the end of the week. I have reset the count for the new week :) Let's get whisking!!"
     );
     reset();
   } else {
